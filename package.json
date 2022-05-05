@@ -1,0 +1,23 @@
+{
+  "name": "KoaJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "eco \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "madusanka",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "http-status": "^1.5.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "0.0.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
